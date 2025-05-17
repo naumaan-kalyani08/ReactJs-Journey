@@ -1,7 +1,11 @@
-import React from "react";
+import QRCodeGenerator from "./components/QrCodeGenerator";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <QRCodeGenerator />
+    </div>
+  );
 };
 
 export default App;
